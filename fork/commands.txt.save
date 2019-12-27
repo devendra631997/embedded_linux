@@ -1,0 +1,22 @@
+#only display some specific field
+ps -e -o pid,cmd
+---------------------
+kill a process
+---------------
+kill -l #listing of signal types
+---------------------------------
+commonly used signals
+-9 -> SIGKILL
+-15 -> SIGTERM
+------------------------
+Kill some process
+kill -9 <pidofprocess>
+kill -15 <pidofprocess>
+--------------------------------
+start some process if backgroud
+-------------------------------
+ensure there should not be argument
+firefox & #background
+firefox   #foregroud
+--------------------------------------
+
